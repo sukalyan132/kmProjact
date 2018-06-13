@@ -1,0 +1,37 @@
+page-login {
+	.text-center{
+		text-align:center
+	}
+	.mt10{
+	margin-top:10px;
+	
+	}
+	.mt10 a{color: #ed1573;}
+ 	.logo{
+    	margin: 80px 0 0;
+ 	}
+ 	.button-round-md{
+ 		margin-top:30px;
+ 	}
+ 	.button-outline-md-primary{
+ 	    border-color: #ed1573;
+    	color: #ed1573;
+ 	}
+ 	.content-body{
+	font-family: Arial,sans-serif; padding: 0; margin: 0; background: url('../assets/imgs/appbg.jpg') no-repeat fixed center top / cover  transparent !important}
+	.item-md{ background:transparent !important; color:#fff;}
+	.item-input .label-md, .item-select .label-md, .item-datetime .label-md, .label .label-md{ color:#b5ceec}
+	.item-input-has-focus .label-md[floating], .item-has-focus .label-md[floating]{
+	color:#b5ceec;	}
+	.item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus) .item-inner{ border-bottom:#b5ceec solid 1px; box-shadow:inset 0 -1px 0 0 #b5ceec;}
+	.item-md.item-input.item-input-has-focus .item-inner,
+.item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: #b5ceec;
+  -webkit-box-shadow: inset 0 -1px 0 0 #b5ceec;
+  box-shadow: inset 0 -1px 0 0 #b5ceec;}
+  .loginbg{ background:#fff; opacity:10 !important; border:#fff; padding:25px; font-weight:bold; font-size:16px; color:#6f6ad1;}
+  .item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner{border-bottom-color: #b5ceec;
+    -webkit-box-shadow: inset 0 -1px 0 0 #b5ceec;
+    box-shadow: inset 0 -1px 0 0 #b5ceec;}
+    .focus-outline{ outline:none !important;}
+}

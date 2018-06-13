@@ -14,3 +14,307 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+.align-center {
+  text-align: center;
+}
+
+.highlight {
+  background-color: #f4f4f4;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.top-radius {
+  border-radius: 10% 10% 0 0;
+}
+
+.bottom-radius {
+  border-radius: 0 0 10% 10%;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.transparent-header {
+  // This is just to make the header transparent and button/icon with white color
+  .toolbar-content,
+  .back-button {
+    color: white;
+  }
+  .toolbar-background,
+  ion-navbar,
+  ion-header {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+  .header-md::after,
+  .toolbar-background-ios {
+    background-image: none;
+    border-bottom: 0;
+  }
+  .header-ios .toolbar-background-ios,
+  .footer-ios .toolbar-background-ios {
+    border: 0;
+  }
+  // ---
+}
+
+// right side menu
+#menu-right {
+  button {
+    padding-left: 16px;
+  }
+  ion-content {
+   
+
+  }
+  .menu-inner {
+    width: 10vh;
+  }
+  @media screen and (orientation: landscape) {
+    .menu-inner {
+      width: 15vh;
+    }
+  }
+  .active-menu-item {
+    position: absolute;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #ffffff;
+  }
+  .label {
+    display: flex;
+    align-items: center;
+  }
+  .list-md[no-lines] .item-block,
+  .list-md[no-lines] ion-item-options,
+  .list-md[no-lines] .item .item-inner,
+  .list-ios[no-lines] .item-block,
+  .list-ios[no-lines] ion-item-options,
+  .list-ios[no-lines] .item .item-inner {
+    padding: .3rem 0;
+    background: transparent;
+    color: white;
+  }
+  ion-icon {
+    line-height: 1;
+  }
+}
+
+.icon-badge {
+  top: 0px;
+  right: 0px;
+  background: #FF5D5D;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  padding: 5px 8px;
+  border-radius: 15px;
+}
+
+// Sidemenu with avatar
+#menu-avatar {
+  .user-avatar {
+    max-width: 125px;height: 125px;
+    padding: .5em;
+  }
+  h3,
+  .label {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .item {
+    background: transparent;
+  }
+  ion-content {
+
+    
+
+  }
+  .menu-inner {
+    background: rgba(255, 255, 255, .3);
+  }
+}
+
+// Material Design Sidemenu
+#menu-material {
+  .menu-header {
+    padding: 5px 15px;
+    background-image: url('../assets/img/misc/material-design-background.jpg');
+    background-size: cover;
+    color: white;
+    .name {
+      font-weight: 500;
+      margin-bottom: 3px;
+    }
+    .e-mail {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+  }
+  .user-avatar {
+    max-width: 125px;height: 125px;
+    padding: .5em;
+    height: 12vh;
+  }
+  h3,
+  .label,
+  {
+    color: #999;
+    font-weight: 400;
+  }
+  ion-icon {
+    color: #777;
+  }
+}
+// Dark Design Sidemenu
+#menu-dark{
+  .sidemenuHeader{
+    ion-toolbar{
+      .toolbar-background{background: #f8e8ff;border:#f8e8ff; }
+      ion-buttons{
+        button{color: #fff;}
+      }
+      .toolbar-content{
+        ion-item{background: transparent;color: #fff;
+          ion-avatar{background: #fff;color:#f8e8ff;border-radius:50%;text-align: center;
+            h2{margin: 0;font-size: 25px;line-height: 40px;color: #f8e8ff;}
+          }
+          h2{font-size: 12px;font-weight: normal;}
+          p{font-size: 11px;font-weight: normal;color:#fff;}
+        }
+      }
+    }
+  }
+  .menu{background: #f8e8ff;
+    ion-list{
+      button{background: transparent;color: #C9C7D3;font-size: 13px;
+        .item-inner{border-bottom: 1px solid #474456 !important;
+          img{width: 30px;height: 30px;vertical-align: middle;margin-right: 10px;margin-bottom: 5px;}
+        }
+      }
+    }
+  }
+  ion-content {
+    
+    background: #e53791 !important;
+	}
+	.menuProfileSection{
+		border-bottom: 2px solid #fff;
+    background:#ed1573 !important;
+	}
+	
+}
+
+/* define a fixed width for the entire menu */
+.navigation {
+  margin-left:30px;
+}
+
+.mainmenu{
+border-left:#ccc solid 1px;
+padding:20px 0px !important;
+}
+
+.submenu{
+border-left:#ccc solid 1px;
+margin-left:20px !important;
+z-index:1;
+}
+
+/* reset our lists to remove bullet points and padding */
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu a {
+  display: block;
+ /* background-color: #CCC;*/
+  text-decoration: none;
+  padding: 10px 10px 10px 0px;
+  color: #000;
+}
+
+.mainmenu a ion-icon{ position:relative; left:-6px; z-index:2; color:#ccc;}
+/* add hover behaviour */
+.mainmenu a:hover, .mainmenu a:hover i {
+    /*background-color: #C5C5C5;*/
+   color:#13b39b;
+}
+
+
+/* when hovering over a .mainmenu item,
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px;
+*/
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+
+/*
+  we now overwrite the background-color for .submenu links only.
+  CSS reads down the page, so code at the bottom will overwrite the code at the top.
+*/
+
+.submenu a {
+  /*background-color: #999;*/
+}
+ul.submenu li:first-child a { padding-top:0px !important;}
+ul.submenu li:last-child a { padding-bottom:0px !important;}
+.submenu a ion-icon{ position:relative; left:-6px; color:#13b39b;}
+
+/* hover behaviour for links inside .submenu */
+.submenu a:hover {
+  /*background-color: #666;*/
+}
+
+/* this is the initial state of all submenus.
+  we set it to max-height: 0, and hide the overflowed content.
+*/
+.submenu {
+ display:none;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+  
+}
+
+#menu-avatar ion-content{ background: #7e51ec !important; ; /* Old browsers */
+    background: -moz-linear-gradient(left, #7e51ec 0%, #25b2c3 100%) !important; ; /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #7e51ec 0%,#25b2c3 100%) !important; ; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #7e51ec 0%,#25b2c3 100%) !important; ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e51ec', endColorstr='#25b2c3',GradientType=1 ) !important; ; /* IE6-9 */}
+.menuProfileSection{ border-bottom: 2px solid #fff; padding:10px; position:relative; }
+ .menubg{ background:#fff; height:100%;}
+.menuProfileSection h3{ font-size:16px !important; margin:0px 0px 0px 5px;}
+.menuProfileSection h5{ font-size:13px !important; margin:0px 0px 0px 5px; color:#fff;}
+#menu-avatar .user-avatar{ max-width: 60px; height: 60px; width:60px; padding:0px;}
+.imgborder{ border:#fff solid 2px;}
+.border-right{border-right:#ccc solid 1px;}
+ion-app.ios [padding]{ margin-bottom:10px; padding:10px;}
+.toolbar-background-ios{ background:#fff; border:none !important;}
+.bell_btn{background: #ed1573; color: #fff; height: 40px; width: 40px; font-size: 25px; font-weight: bold; position:absolute; bottom:-20px; right:15px; box-shadow: 0px 4px 10px #888888}
+.tab-badge{top: -12%;right: calc(202% - 50px);}
+.badge-md{border-radius:16px;}
+.toolbar-background-md{background: #ffff;}
+.toolbar .toolbar-md{margin-bottom: 5px;}
+.footer-md::before{background-image:none;}
+

@@ -1,0 +1,187 @@
+[
+  {
+    "category":"Home",
+    "url"     :"/",
+    "subs": []
+  },
+  {
+    "category":"Profile",
+    "url"     :"/my-profile",
+    "subs": [
+      {
+        "subcategory":"My Profile",
+        "url"     :"/my-profile"
+      },
+      {
+        "subcategory":"My Network Contacts",
+        "url"     :"/mynetwork"
+      },
+      {
+        "subcategory":"Directory",
+        "url"     :"/profile-listing"
+      },
+      {
+        "subcategory":"KM+ Badges",
+        "url"     :"/gamification/badges?cat_m=all&qt-gamification_badge_tabs=0"
+      },
+      {
+        "subcategory":"Settings / Preferences",
+        "url"     :"/my-settings"
+      }
+    ]
+  },
+  {
+    "category":"Lessons",
+    "url"     :"/lessons",
+    "subs": [
+      {
+        "subcategory":"Public Lessons",
+        "url"     :"/lessons"
+      },
+      {
+        "subcategory":"My Lessons",
+        "url"     :"/lessons/my-lessons"
+      },
+      {
+        "subcategory":"Archived Lessons",
+        "url"     :"/lessons/my-deleted-lessons"
+      }
+    ]
+  },
+  {
+    "category":"Ask An Expert",
+    "url"     :"/ask-an-expert/find-expert",
+    "subs": [
+      {
+        "subcategory":"I know the Expert",
+        "url"     :"/node/add/query"
+      },
+      {
+        "subcategory":"Help me Find the Expert",
+        "url"     :"/ask-an-expert/find-expert"
+      },
+      {
+        "subcategory":"My Queries",
+        "url"     :"/ask-an-expert"
+      },
+      {
+        "subcategory":"Queries Awaiting my Response",
+        "url"     :"/ask-an-expert/queries-awaiting-response"
+      },
+      {
+        "subcategory":"Answered Queries",
+        "url"     :"/ask-an-expert/answered-queries"
+      }
+    ]
+  },
+  {
+    "category":"Communities",
+    "url"     :"/communities/public-communities",
+    "subs": [
+      {
+        "subcategory":"Public Communities ",
+        "url"     :"/communities/public-communities"
+      },
+      {
+        "subcategory":"Moderated Communities",
+        "url"     :"/communities/moderated-communities"
+      },
+      {
+        "subcategory":"Restricted Communities",
+        "url"     :"/communities/restricted-communities"
+      },
+      {
+        "subcategory":"I'm Owner",
+        "url"     :"/communities/i-am-owner"
+      },
+      {
+        "subcategory":"I'm Member",
+        "url"     :"/communities/i-am-member"
+      },
+      {
+        "subcategory":"Archived Communities",
+        "url"     :"/communities/archived-communities"
+      }
+    ]
+  },
+  {
+    "category":"Knowledge Repository",
+    "url"     :"/my-profile",
+    "subs": [
+      {
+        "subcategory":"My Drive",
+        "url"     :"/knowledge-repository"
+      },
+      {
+        "subcategory":"Organisational Drive",
+        "url"     :"/knowledge-repository/folder/14"
+      }
+    ]
+  },
+  {
+    "category":"wikis",
+    "url"     :"/wikis/public-wikis",
+    "subs": [
+      {
+        "subcategory":"Public Wikis",
+        "url"     :"/wikis/public-wikis"
+      },
+      {
+        "subcategory":"I'm Owner",
+        "url"     :"/wikis/i-am-owner"
+      },
+      {
+        "subcategory":"I'm Member",
+        "url"     :"/wikis/i-am-member"
+      },
+      {
+        "subcategory":"I'm Following",
+        "url"     :"/wikis/i-am-following"
+      },
+      {
+        "subcategory":"Archived Wikis",
+        "url"     :"/wikis/archive-wikis"
+      }
+    ]
+  },
+  {
+    "category":"Forums",
+    "url"     :"/forums/public",
+    "subs": [
+      {
+        "subcategory":"Public Forums",
+        "url"     :"/forums/public"
+      },
+      {
+        "subcategory":"I'm Owner",
+        "url"     :"/forums/my"
+      },
+      {
+        "subcategory":"I'm Following",
+        "url"     :"/forums/i-am-following"
+      }
+    ]
+  },
+  {
+    "category":"Blog",
+    "url"     :"/public-blogs",
+    "subs": [
+      {
+        "subcategory":"Public Blogs",
+        "url"     :"/public-blogs"
+      },
+      {
+        "subcategory":"I'm Owner",
+        "url"     :"/my-blogs"
+      },
+      {
+        "subcategory":"I'm Member",
+        "url"     :"/i-am-member"
+      },
+      {
+        "subcategory":"I'm Following",
+        "url"     :"/i-am-following"
+      }
+    ]
+  }
+]

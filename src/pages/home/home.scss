@@ -1,3 +1,15 @@
 page-home {
+	.toolbar-background .toolbar-background-md{
+	    background: linear-gradient(to right, #7e51ec 0%, #25b2c3 100%) !important;
+	    color:#fff;
+	}
+	.toolbar-background-md{
+		 background: linear-gradient(to right, #7e51ec 0%, #25b2c3 100%) !important;
+	    color:#fff;
 
+	}
+	.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+	    color: #fff;
+	    background-color: transparent;
+	}
 }

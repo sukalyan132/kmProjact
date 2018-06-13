@@ -1,0 +1,32 @@
+<ion-content padding  class="content-body">
+	<ion-grid>
+		<ion-row>
+			<ion-col col-12>
+				<div class="logo text-center	">
+					<img src="assets/imgs/KM logo.png" width="100">
+				</div>
+			</ion-col>
+		</ion-row>
+	
+	</ion-grid>
+	<ion-list>
+
+		<form [formGroup]="authForm" (ngSubmit)="doLogin()">
+			<ion-item no-padding>
+				<ion-label floating>Username</ion-label>
+				<ion-input formControlName="username" type="text"></ion-input>
+			</ion-item>
+
+			<ion-item no-padding>
+				<ion-label floating>Password</ion-label>
+				<ion-input formControlName="password" type="password"></ion-input>
+			</ion-item>
+
+			<button ion-button round block outline color="primary" [disabled]="!authForm.valid" class="loginbg"  type="submit">Login</button>        
+		</form>
+		<!--<div class="text-center mt10">
+			<a href="#">Forgot Your Password?</a>
+		</div>-->
+
+	</ion-list>
+</ion-content>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "640664156553",
+    "firebase_url": "https://km-plus-mobile-app.firebaseio.com",
+    "project_id": "km-plus-mobile-app",
+    "storage_bucket": "km-plus-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640664156553:android:d6266d298d98e11a",
+        "android_client_info": {
+          "package_name": "io.km.kmplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640664156553-asu48d43hqtjilihcprdqpeeg4qoqmer.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "640664156553-asu48d43hqtjilihcprdqpeeg4qoqmer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMGU3ECb2UY3kRPx80tMkX4GoLWU6Fuq8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
